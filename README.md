@@ -15,7 +15,7 @@ SwitchyOmega Rules for VnetLink Programmer Project Connector
 
 ## 其它
 
- - 如果官方 PAC 有更新，这个也一般会第一时间会更新
+ - 如果官方 PAC 有更新，这个一般第一时间也会更新
  - 如果你有良好的梯子，这个其实只能说聊胜于无，所以将就用吧
 
  [1]: https://vnet.link/
