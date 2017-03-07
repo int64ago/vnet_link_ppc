@@ -12,7 +12,11 @@ script:
 - bash run.sh
 
 after_success:
-- git add .
+- mkdir .deploy
+- cd .deploy
+- git clone --depth 1 --branch gh-pages --single-branch $DEPLOY_REPO .
+- cp ../ppc.txt .
+- git add -A .
 - git commit -m 'Update ppc.txt'
-- git remote set-url origin $DEPLOY_REPO
-- git push origin master
+- git branch -m deploy
+- git push -q -u origin deploy:master
