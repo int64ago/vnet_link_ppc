@@ -1,0 +1,18 @@
+language: bash
+
+branches:
+  only:
+  - master
+
+before_script:
+- git config --global user.name 'Cody Chan'
+- git config --global user.email 'int64ago@gmail.com'
+
+script:
+- bash run.sh
+
+after_success:
+- git add .
+- git commit -m 'Update ppc.txt'
+- git remote set-url origin $DEPLOY_REPO
+- git push origin master
