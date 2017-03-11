@@ -5,6 +5,8 @@ SwitchyOmega Rules for VnetLink Programmer Project Connector
 
 [微林][1]提供了免费的[程序员计划][2]服务，加速海外技术相关网站（并不提供 FQ 功能），但是官方只提供了 PAC，有时候需要借助浏览器扩展定制自己复杂的功能，因此写了个脚本干这个事，并输出 `AutoProxy` 规则列表供 [SwitchyOmega][3] 等使用
 
+ > 其实 SwitcyOmega 本身也是支持 PAC 直接建规则的，所以这里只是个例子，多一个选择总不会错
+
 ## 使用
 
  > 例：配合 [SwitchyOmega][3]
